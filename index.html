@@ -9,25 +9,36 @@
 <body>
 
     <nav>
-        <ul>
-            <li><a href='./index.html'>Home</a></li>
-            <li><a href='./media.html'>Media</a></li>
-            <li><a href='./iframe.html'>Iframes & Colors</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href='./index.html'>Home</a></li>
+                <li><a href='./media.html'>Media</a></li>
+                <li><a href='./iframe.html'>Iframes & Colors</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
         <h1>Welcome to Media and Color Practice</h1>
         <p>Explore the use of images and different color types in HTML and CSS.</p>
     </header>
-    <main>
+    <main class="gallery">
         <h2>Image Gallery Task</h2>
-        <p>Create a gallery of images with different styles:</p>
-        <div>
-            <img src="./bird.webp" alt="bird">
-            <img src="./bird.webp" alt="bird">
-            <img src="./bird.webp" alt="bird">
-        </div>
+        <p class="gallery__text">Create a gallery of images with different styles:</p>
+        <section class="sec__img">
+            <div class="figur">
+                <img class="images" src="./bird.webp" alt="bird">
+                <p class="figur_text">Image 1</p>
+            </div>
+            <div class="figur">
+                <img class="images" src="./bird.webp" alt="bird">
+                <p class="figur_text">Image 1</p>
+            </div>
+            <div class="figur">
+                <img class="images" src="./bird.webp" alt="bird">
+                <p class="figur_text">Image 1</p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>© 2024 Media and Color Practice</p>
