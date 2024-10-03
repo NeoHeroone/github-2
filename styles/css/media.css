@@ -68,10 +68,11 @@ body main .container .video {
 body main .container .video .videoo {
   width: 300px;
 }
-body footer .container .ftr {
-  background-color: grey;
+body footer {
+  background-color: #333;
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;

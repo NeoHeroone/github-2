@@ -80,17 +80,14 @@ body {
             }
         }
     }
-    footer{
-        .container{
-            .ftr{
-                background-color: grey;
-                text-align: center;
-                padding: 20px;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-            }
-        }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
     @media (max-width: 768px) {
