@@ -5,6 +5,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body .container {
+  width: 100%;
+  max-width: 1990px;
+  margin: 0 auto;
+}
 body nav ul {
   list-style-type: none;
   background-color: #333;
