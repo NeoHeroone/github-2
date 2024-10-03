@@ -2,4 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body nav ul {
+  list-style-type: none;
+  background-color: #333;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+body nav ul li {
+  float: left;
+}
+body nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+body nav ul li a:hover {
+  background-color: #555;
+}
+body nav ul li a:active {
+  background-color: #a2c346;
+}
+body header {
+  text-align: center;
+  padding: 40px;
+  background-color: #007bff;
+  color: #fff;
+}
+body header p {
+  margin-top: 25px;
 }/*# sourceMappingURL=media.css.map */
