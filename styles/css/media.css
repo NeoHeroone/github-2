@@ -44,4 +44,53 @@ body header {
 }
 body header p {
   margin-top: 25px;
+}
+body main .container .main-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-block: 20px;
+}
+body main .container .main-content .audio {
+  width: 500px;
+}
+body main .container .video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-block: 20px;
+}
+body main .container .video .videoo {
+  width: 300px;
+}
+body footer .container .ftr {
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body main .container .main-content {
+    width: 400px;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+  body main .container .main-content .audio {
+    width: 350px;
+  }
+  body main .container .video {
+    width: 400px;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+  body main .container .video .videoo {
+    width: 250px;
+  }
 }/*# sourceMappingURL=media.css.map */
