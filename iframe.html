@@ -5,21 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/minified/iframe.min.css">
     <title>Iframe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
 
+    <div class="container">
+        <div class="nimadir">
+            <label class="burger" for="checkbox">
+                <i style="font-size: 30px;" class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <input type="checkbox" id="checkbox" />
+        <div class="sidebar">
+            <div class="sidebar-top container">
+                <label for="checkbox">
+                    <i style="font-size: 30px" class="fa-solid fa-x"></i>
+                </label>
+            </div>
+            <ul>
+                <li><a href='./index.html'>Home</a></li>
+                <li><a href='./media.html'>Media</a></li>
+                <li><a href='./iframe.html'>Iframes & Colors</a></li>
+            </ul>
+        </div>
+    </div>
+
     <nav>
-        <ul>
-            <li><a href='./index.html'>Home</a></li>
-            <li><a href='./media.html'>Media</a></li>
-            <li><a href='./iframe.html'>Iframes & Colors</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href='./index.html'>Home</a></li>
+                <li><a href='./media.html'>Media</a></li>
+                <li><a href='./iframe.html'>Iframes & Colors</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
-        <h1>Welcome to Media and Color Practice</h1>
-        <p>Explore the use of images and different color types in HTML and CSS.</p>
+        <h1>Iframes & Colors Practice</h1>
+        <p>Learn how to embed iframes and use different color types in CSS.</p>
     </header>
+
+    <section class="iframe-section" container>
+        <h2>Iframe Task</h2>
+        <p>Embed an iframe displaying a webpage, with custom styling:</p>
+        <iframe src="https://www.example.com" title="Example Iframe"></iframe>
+    </section>
+
+    <section class="color-section container">
+        <h2>Color Types Task</h2>
+        <p>Style elements using different color types:</p>
+        <div class="color-box rgb">RGB Color</div>
+        <div class="color-box rgba">RGBA Color with Opacity</div>
+        <div class="color-box hex">HEX Color</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Media and Color Practice</p>
+    </footer>
     
 </body>
 </html>
