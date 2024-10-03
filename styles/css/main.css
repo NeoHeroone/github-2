@@ -37,41 +37,4 @@ body header {
 }
 body header p {
   margin-top: 25px;
-}
-body .image-gallery {
-  padding: 20px;
-  text-align: center;
-}
-body .image-gallery .gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-body .image-gallery .gallery figure {
-  margin: 10px;
-  max-width: 30%;
-}
-body .image-gallery .gallery figure img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-}
-body .image-gallery .gallery figure img:hover {
-  transform: scale(1.05);
-}
-body .image-gallery .gallery figure figcaption {
-  margin-top: 10px;
-  font-size: 1.1em;
-  color: #555;
-}
-body footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }/*# sourceMappingURL=main.css.map */
