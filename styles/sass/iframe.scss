@@ -10,10 +10,16 @@
 }
 
 body {
+    .container{
+        width: 100%;
+        max-width: 1990px;
+        margin: 0 auto;
+    }
+
     nav {
+        background-color: $main-bg-color;
         ul {
             list-style-type: none;
-            background-color: $main-bg-color;
             overflow: hidden;
             padding: 0;
             margin: 0;
