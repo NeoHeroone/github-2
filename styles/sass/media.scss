@@ -1,0 +1,49 @@
+@import "iframe.scss";
+@import "media.scss";
+@import "variable.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    nav {
+        ul {
+            list-style-type: none;
+            background-color: $main-bg-color;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            li {
+                float: left;
+                a {
+                    display: block;
+                    color: $text-color;
+                    text-align: center;
+                    padding: 14px 20px;
+                    text-decoration: none;
+                    transition: all .5s;
+                    &:hover{
+                        background-color: $hover-color;
+                    }
+                    &:active{
+                        background-color: $active-color;
+                    }
+                }
+            }
+        }
+    }
+
+    header{
+        text-align: center;
+        padding: 40px;
+        background-color: $head-bg-color;
+        color: $text-color;
+        p{
+            margin-top: 25px;
+        }
+    }
+}
